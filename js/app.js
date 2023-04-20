@@ -12,11 +12,11 @@ if (answer1 === "yes" || answer1 === "y") {
   alert("You're right! I am from Tennessee!");
 }
 
-let answer2 = prompt("Did I go to University").toLowerCase();
+let answer2 = prompt("Did I go to university").toLowerCase();
 
 if (answer2 === "yes" || answer2 === "y") {
-  //  console.log ("I did attend University! Go Bulldogs!")
-  alert("I did attend University! Go Bulldogs!");
+  //  console.log ("I did attend university! Go Bulldogs!")
+  alert("I did attend university! Go Bulldogs!");
 } else {
   // console.log ("That's incorrect! I did attend university!")
   alert("That's incorrect! I did attend university!");
@@ -42,12 +42,22 @@ if (answer4 === "no" || answer4 === "no") {
   alert("I love politics following politics, but not enought to study it");
 }
 
-let answer5 = prompt("Do I like to travel?").toLowerCase()
+let answer5 = prompt("Do I like to travel?").toLowerCase();
 
-if (answer5 === "yes"|| answer5 === "y") {
+if (answer5 === "yes" || answer5 === "y") {
   //console.log ("That's right!! I want to go to Jordan next!")
   alert("That's right!! I want to go to Jordan next!");
 } else {
   //console.log ("Incorrect! I LOVE to travel")
   alert("Incorrect! I LOVE to travel");
+}
+
+let answer6 = prompt("Have I visited 6 countries?").toLowerCase();
+
+if (answer6 === "no" || answer6 === "n") {
+  //console.log ("Youre right! I've only visited 5!")
+  alert("Youre right! I've only visited 5!");
+} else {
+  //console.log ("That's incorrect. I have only been to 5 countries so far.")
+  alert("That's incorrect. I have only been to 5 countries so far.");
 }

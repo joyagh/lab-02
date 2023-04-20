@@ -18,3 +18,11 @@ p
 color:aqua;
 padding: 20px;
 text-align: center;}
+
+main {
+  padding: 15px
+}
+
+.places {
+    padding: 20px
+}
