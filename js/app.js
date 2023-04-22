@@ -61,3 +61,20 @@ if (answer6 === "no" || answer6 === "n") {
   //console.log ("That's incorrect. I have only been to 5 countries so far.")
   alert("That's incorrect. I have only been to 5 countries so far.");
 }
+
+
+let correctAnswer;
+correctAnswer = "21";
+
+while (true) {
+  let answer7 = prompt("Pick a number, any number!");
+  if (correctAnswer === answer7) {
+    console.log("You are correct!");
+    alert("You are correct!");
+    break;
+    
+  } else {
+    console.log("You are incorrect.");
+    alert("You are incorrect.");
+  }
+}
