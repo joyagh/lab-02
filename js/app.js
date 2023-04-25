@@ -62,19 +62,56 @@ if (answer6 === "no" || answer6 === "n") {
   alert("That's incorrect. I have only been to 5 countries so far.");
 }
 
-
 let correctAnswer;
 correctAnswer = "21";
+let attempts = 4;
 
-while (true) {
+while (attempts > 0) {
   let answer7 = prompt("Pick a number, any number!");
   if (correctAnswer === answer7) {
     console.log("You are correct!");
     alert("You are correct!");
     break;
-    
   } else {
     console.log("You are incorrect.");
     alert("You are incorrect.");
+    attempts = attempts - 1;
+  }
+
+  if (attempts === 0) {
+    alert(
+      "You are out of attempts! The correct answer is " + correctAnswer + "."
+    );
+  }
+}
+
+let favDes = ["dublin", "aruba", "chicago", "jamaica"];
+
+let attempts2 = 6;
+
+while (attempts2 > 0) {
+  let question8 = prompt("What is my favorite destination?").toLowerCase();
+  if (question8 === favDes[0]) {
+    alert("You are correct!");
+    break;
+  } else if (question8 === favDes[1]) {
+    alert("You are correct!");
+    break;
+  } else if (question8 === favDes[2]) {
+    alert("You are correct!");
+    break;
+  } else if (question8 === favDes[3]) {
+    alert("You are correct!");
+    break;
+  }
+
+  alert("You are wrong.");
+  attempts2 = attempts2 - 1;
+
+  if (attempts2 === 0) {
+    alert(
+      `You are out of attempts.${favDes[0]}, ${favDes[1]}, ${favDes[2]}, ${favDes[3]}`
+    );
+    break;
   }
 }
