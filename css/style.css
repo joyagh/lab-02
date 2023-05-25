@@ -4,25 +4,30 @@ body {
   background-repeat: repeat-y;
 }
 h1 {
-  background-color: black;
-  color: aqua;
+  background-color: #C0B9A2;
+  color: #4c501f;
   padding: 50px;
   text-align: center;
   border-color: aqua;
 }
 
-h2 {
-  background-color: aqua;
+h2, h3, h4 {
+  background-color: #4c501f;
   padding: 30px;
   text-align: center;
-  color: black;
+  color: #C0B9A2;
 }
 
 p {
-  background-color: black;
-  color: aqua;
+  background-color: #C0B9A2;
+  color: #4c501f;
   padding: 20px;
   text-align: center;
+}
+
+div {
+  background-color: #C0B9A2;
+  color: #4c501f;
 }
 
 .places {
@@ -33,4 +38,12 @@ p {
   width: 80px;
   height: 160px;
 }
+#list {
+  background-color: #C0B9A2;
 
+}
+ul, ol {
+text-align: center;
+list-style-position: inside;
+
+}
