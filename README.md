@@ -8,12 +8,12 @@ In Lab-02, I started by making an HTML page with a biography including my work a
 In Lab-03, I added an ordered and unordered list to my HTML. Also used Javascript to prompt user to guess a number.Utilized arrays to prompt a multiple answer question. Another loop was used to give users 6 attempts to answer a multiple choice prompt as well as feedback to see whether their answers were correct. I will attempt stretch goals at a later date.
 
 
-![Lighthouse score for Lab03](./img/lighthouseimg1.png)
-=======
 ### Author: Justine Oyaghiro
 
 ### Links
 https://unsplash.com/
 
 ### Lighthouse Score
+![Lighthouse score for Lab03](./img/lighthouseimg1.png)
+=======
 
