@@ -1,28 +1,36 @@
-h1
-{background-color: black;
-    color: aqua ;
-     padding: 50px;
-     text-align: center;
-border-color: aqua;}
+body {
+  background-image: url("/img/aruba.jpeg");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+h1 {
+  background-color: black;
+  color: aqua;
+  padding: 50px;
+  text-align: center;
+  border-color: aqua;
+}
 
-h2
+h2 {
+  background-color: aqua;
+  padding: 30px;
+  text-align: center;
+  color: black;
+}
 
-{background-color: aqua;
-     padding: 30px;
-     text-align: center;
-     color:black;}
-
-p
-
-{background-color: black;
-color:aqua;
-padding: 20px;
-text-align: center;}
-
-main {
-  padding: 15px
+p {
+  background-color: black;
+  color: aqua;
+  padding: 20px;
+  text-align: center;
 }
 
 .places {
-    padding: 20px
+  padding: 20px;
 }
+
+#trees {
+  width: 80px;
+  height: 160px;
+}
+
