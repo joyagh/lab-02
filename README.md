@@ -14,6 +14,6 @@ In Lab-03, I added an ordered and unordered list to my HTML. Also used Javascrip
 https://unsplash.com/
 
 ### Lighthouse Score
-![Lighthouse score for Lab03](./img/lighthouseimg1.png)
+![Lighthouse score for Lab02](./img/lighthouseimg1.png)
 =======
-
+![Lighthouse score for Lab03](./img/lighthouseimg2.png)
